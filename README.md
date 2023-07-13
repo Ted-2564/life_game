@@ -7,5 +7,9 @@
 
 其实最开始是想用tkinter的，但是看了一圈，发现还是plt方便。
 
-#  life.ipynb是一个jupyter文件，可以使用Visual Studio Code - Insiders配合python插件实现，可以逃离网页版jupyter（太亮了，懒得调）
-#  暂时没有注释，以后会不会有，不好说（程序比较短，暂时没有），不是好习惯:(
+#  life.ipynb
+Ta是一个jupyter文件，可以使用Visual Studio Code - Insiders配合python插件实现
+Ta是用来完善代码是所用到的，可以实现简单的滑翔机
+
+#random_life.py
+实现随机初始化的开始，对其进行50次迭代
