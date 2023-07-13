@@ -11,5 +11,5 @@
 Ta是一个jupyter文件，可以使用Visual Studio Code - Insiders配合python插件实现
 Ta是用来完善代码是所用到的，可以实现简单的滑翔机
 
-#random_life.py
+#  random_life.py
 实现随机初始化的开始，对其进行50次迭代
