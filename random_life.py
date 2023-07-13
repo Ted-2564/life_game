@@ -1,7 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
 x = np.random.randint(0,2,(42,42))
-print(x)
 
 # %% [markdown]
 # o x o  
@@ -21,7 +20,6 @@ def fresh():
         for j in range(40):
             center = x[i+1,j+1]
             num = np.sum(x[i:i+3,j:j+3])
-            center
             if (center==0 and num==3):
                 y[i+1,j+1]=1
                 continue
@@ -34,10 +32,11 @@ def fresh():
                     y[i+1,j+1]=0
     x = y
     
-for i in range(50):
+for i in range(150):
     plt.clf()
     fresh()
-    plt.imshow(x,cmap="gray")
+    #plt.imshow(x,cmap="gray")
+    plt.imshow(x)
     plt.pause(0.01)
     plt.ioff()
 
